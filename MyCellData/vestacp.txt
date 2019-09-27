@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^salebuild.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.salebuild.com [NC]
+RewriteRule ^(.*)$ https://salesify.com/$1 [L,R=302,NC]
+
+
+z8cCESQLoI
+ admin_leadsrus_ftp
+
+admin_salebuild
+ 
